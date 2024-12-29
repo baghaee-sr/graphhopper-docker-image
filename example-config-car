@@ -1,0 +1,17 @@
+graphhopper:
+  datareader.file: ./data.osm.pbf
+  graph.location: ./graph-cache-new
+
+  profiles:
+    - name: car
+      profile_type: fastest
+      custom_model_files: [car.json]
+
+  profiles_ch:
+    - profile: car
+
+  profiles_lm: []
+
+  graph.encoded_values: car_access, road_access, car_average_speed
+
+  import.osm.ignored_highways: footway,cycleway,path,pedestrian,steps
