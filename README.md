@@ -25,7 +25,7 @@ You can skip building the image and directly use the pre-built image hosted on D
 
 2. Run the Docker container:
    ```bash
-   docker run -d -p 8989:8989 -e OSM_URL=https://download.geofabrik.de/europe/andorra-latest.osm.pbf baghaee/docker-graphhopper
+   docker run -d -p 8989:8989 -e OSM_URL=https://download.geofabrik.de/asia/yemen-latest.osm.pbf baghaee/docker-graphhopper
    ```
 
 ### Explanation:
